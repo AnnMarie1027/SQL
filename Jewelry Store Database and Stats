@@ -1,0 +1,29 @@
+--Create a jewelry store database
+
+CREATE TABLE MyShop (id INTEGER PRIMARY KEY, item TEXT, metal TEXT, gem TEXT, price INTEGER, stockqty INTEGER);
+
+INSERT INTO MyShop VALUES (1, "bracelet", "gold", "ruby", 50, 2);
+INSERT INTO MyShop VALUES (2, "bracelet", "silver", "diamond", 100, 3);
+INSERT INTO MyShop VALUES (3, "bracelet", "whitegold", "ruby", 50, 7);
+INSERT INTO MyShop VALUES (4, "necklace", "gold", "ruby", 150, 2);
+INSERT INTO MyShop VALUES (5, "necklace", "silver", "diamond", 100, 5);
+INSERT INTO MyShop VALUES (6, "necklace", "whitegold", "ruby", 200, 4);
+INSERT INTO MyShop VALUES (7, "ring", "gold", "ruby", 75, 5);
+INSERT INTO MyShop VALUES (8, "ring", "silver", "diamond", 55, 2);
+INSERT INTO MyShop VALUES (9, "ring", "whitegold", "ruby", 95, 8);
+INSERT INTO MyShop VALUES (10, "earring", "gold", "ruby", 80, 15);
+INSERT INTO MyShop VALUES (11, "earring", "silver", "diamond", 45, 10);
+INSERT INTO MyShop VALUES (12, "earring", "whitegold", "ruby", 100, 5);
+INSERT INTO MyShop VALUES (13, "cufflink", "gold", "ruby", 50, 8);
+INSERT INTO MyShop VALUES (14, "cufflink", "silver", "diamond", 70, 2);
+INSERT INTO MyShop VALUES (15, "cufflink", "whitegold", "ruby", 55, 2);
+
+--display the database ordered by price.
+
+SELECT * FROM MyShop ORDER BY price;
+
+--which items have more than 5 items in stock? 
+
+SELECT * FROM MYShop WHERE stockqty >5;
+
+
