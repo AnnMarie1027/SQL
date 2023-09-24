@@ -1,4 +1,4 @@
---Using a pre-made superstore database
+--Using a pre-made superstore t
 
 CREATE TABLE superstore (
     item_id INTEGER PRIMARY KEY,
