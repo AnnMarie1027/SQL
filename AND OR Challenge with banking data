@@ -1,4 +1,4 @@
---Used pre-made t with banking details to answer various queries listed below
+--Used pre-made table with banking details to answer various queries listed below.
 
 CREATE TABLE bank_products (
     product_id INTEGER PRIMARY KEY,
