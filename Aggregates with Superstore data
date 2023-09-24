@@ -1,4 +1,4 @@
---Using a pre-made superstore t
+--Using a pre-made superstore table to use AVG, SUM, MIN, MAX.
 
 CREATE TABLE superstore (
     item_id INTEGER PRIMARY KEY,
